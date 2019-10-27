@@ -1,0 +1,108 @@
+
+/* List Details */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0.75;
+}
+
+li {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Top of Page */
+
+.header a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topright {
+  float: right;
+}
+
+.topleft {
+  float: left;
+}
+
+/* Center of Page */
+.main {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 43%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  position: relative;
+  left: 30%;
+  bottom: 10%;
+}
+
+.searchbar {
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border: 1px solid black;
+  opacity: 0.1;
+  width: 450px;
+  height: 40px;
+}
+
+.wrapper {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 38.5%;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* Bottom of Page */
+.footer {
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+#privacy, #terms, #settings {
+float: right;
+}
